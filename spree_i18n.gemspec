@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_i18n'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.summary     = 'Provides locale information for use in Spree.'
   s.description = 'Provides locale information for use in Spree.'
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency('spree',  '1.2.1.beta')
+  s.add_dependency('spree',  '1.1.0.beta')
   s.add_dependency('i18n', '~> 0.5')
   s.add_development_dependency "rails", ">= 3.0.0"
   s.add_development_dependency "rspec-rails", ">= 2.7.0"
